@@ -15,4 +15,4 @@ I was thinking of making some PCBs, and I thought, why not try something advance
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/1da7f42b-02ef-4b91-b26e-8b47106bbf28" />
 
 # BOM
-The only part needed to be ordered for this project is the PCB with PCBA parts on it. If you would like to see, go check out the EasyDev-bom.csv file as that is the same one that I used for getting my PCBA and has all the parts needed. If you would like the JLCPCB version of the BOM with parts picked out that will already be set up with JLCPCB's BOM, go see EasyDev-bom-jlc.csv!
+The only part needed to be ordered for this project is the PCB with PCBA parts on it. If you would like to see, go check out the EasyDev-bom.csv file as that is the same one that I used for getting my PCBA and has all the parts needed. If you would like the JLCPCB version of the BOM with parts picked out that will already be set up with JLCPCB's BOM, go see EasyDev-bom-jlc.xls!
