@@ -1,4 +1,4 @@
-## Footprint report - date 2026-07-24T22:07:33-0400
+## Footprint report - date 2026-07-09T22:01:41-0400
 ## Created by KiCad version 9.0.6
 ## Unit = mm, Angle = deg.
 
@@ -331,37 +331,6 @@ drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C17
-
-$MODULE D1
-footprint LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm
-attribut smd
-position 160.018639 95.028324  orientation 0.00
-layer front
-$PAD "1"
-Shape Rect Layer front
-position -0.915000 -0.550000  size  0.700000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Rect Layer front
-position -0.915000  0.550000  size  0.700000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "3"
-Shape Rect Layer front
-position  0.915000  0.550000  size  0.700000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "4"
-Shape Rect Layer front
-position  0.915000 -0.550000  size  0.700000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  D1
 
 $MODULE J1
 footprint Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
@@ -780,19 +749,6 @@ drill  1.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  J4
-
-$MODULE J5
-footprint Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
-attribut none
-position 158.557827 98.548552  orientation 0.00
-layer front
-$PAD "1"
-Shape Rect Layer both
-position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
-drill  1.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  J5
 
 $MODULE R1
 footprint Resistor_SMD:R_0402_1005Metric
