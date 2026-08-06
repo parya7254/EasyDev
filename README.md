@@ -3,6 +3,7 @@
 # EasyDev
 A RP2040 Dev Board featuring 43 exposed pins along with 16 MB of flash storage! Can support up to (not recommended) 1A of power draw on VBUS! Features 29 programmable GPIO pins so that you have plenty of pins for plenty of connecting and tinkering and also a onboard NeoPixel-compatible addressable RGB LED with a exposed pin dedicated for connecting other addressable LEDs to the board without sacrificing a GPIO!
 
+<img width="833" height="2069" alt="image" src="https://github.com/user-attachments/assets/8bcc80f9-b112-4536-bd4e-fd6323dd7293" />
 <img width="997" height="653" alt="image" src="https://github.com/user-attachments/assets/84a811b0-3a2e-485e-9566-f25fc2c012cf" />
 
 # Why?
