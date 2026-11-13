@@ -19,9 +19,8 @@ The EasyDev devboard comes preassembled <ins>except for the header pins.</ins> Y
 If you are curious of how this devboard works, well you are in the right spot! When you connect the devboard to your computer, power goes through something called a LDO (Low Dropout Regulator) which, in our case, will keep the voltage going to the rest of the board at 3.3V. But why 3.3V, you might ask. Well, this is because the chip/microcontroller that the devboard has uses 3.3V logic and can only take 3.3V of power, your USB port has 5V of power, directly wiring the USB pins to the chip would blow it up! Then the power goes through decoupling capacitors which are like tiny batteries and then the capacitors help keep stable voltages to the RP2040 chip in case the voltage drops.  Then, there are pins on the chip called GPIOs (General Purpose Input/Output) that you can control with code. Those pins are wired to the header pins on the left and right-hand side. And then the USB data lines are also connected to the RP2040 so that the computer and the devboard can communicate with each other and to upload code to the board. And after you program the board, you can connect parts to the pins like motors, LEDs, etc. using some wires and/or a breadboard!
 
 # PCB
-<img width="357" height="812" alt="image" src="https://github.com/user-attachments/assets/4324b94e-40e5-4377-8eb8-3b5cba6139c3" />
-<img width="368" height="804" alt="image" src="https://github.com/user-attachments/assets/dbbbabc1-c3bb-45f5-ac07-e1dae72ddd32" />
-<img width="411" height="885" alt="image" src="https://github.com/user-attachments/assets/3f3dc52b-1b3d-4618-b22b-2d0c28bc20d7" />
+|<img width="357" height="812" alt="image" src="https://github.com/user-attachments/assets/4324b94e-40e5-4377-8eb8-3b5cba6139c3" />|<img width="368" height="804" alt="image" src="https://github.com/user-attachments/assets/dbbbabc1-c3bb-45f5-ac07-e1dae72ddd32" />|<img width="411" height="885" alt="image" src="https://github.com/user-attachments/assets/3f3dc52b-1b3d-4618-b22b-2d0c28bc20d7" />|
+|-|-|-|
 
 # Schematic
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/474bdac0-ee6f-4ab7-9759-d5cc6d549906" />
