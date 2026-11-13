@@ -3,8 +3,8 @@
 # EasyDev
 A RP2040 Dev Board featuring 43 exposed pins along with 16 MB of flash storage! Can support up to (not recommended) 1A of power draw on VBUS! Features 29 programmable GPIO pins so that you have plenty of pins for plenty of connecting and tinkering and also a onboard NeoPixel-compatible addressable RGB LED with a exposed pin dedicated for connecting other addressable LEDs to the board without sacrificing a GPIO!
 
-<img width="833" height="2069" alt="image" src="https://github.com/user-attachments/assets/8bcc80f9-b112-4536-bd4e-fd6323dd7293" />
-<img width="997" height="653" alt="image" src="https://github.com/user-attachments/assets/84a811b0-3a2e-485e-9566-f25fc2c012cf" />
+|<img width="833" height="2069" alt="image" src="https://github.com/user-attachments/assets/8bcc80f9-b112-4536-bd4e-fd6323dd7293" />|<img width="997" height="653" alt="image" src="https://github.com/user-attachments/assets/84a811b0-3a2e-485e-9566-f25fc2c012cf" />|
+|-|-|
 
 # Why?
 I was thinking of making some PCBs, and I thought, why not try something advanced and also something that you have been wanting to do for a while now? And that's when I came up with the idea of making my own RP2040 dev board (basically a Raspberry Pi Pico) starting from scratch. So I did, and learned a lot along the way! Making this devboard will definitely change the way I make PCBs in the future especially because of all the things that I learned from designing this.
