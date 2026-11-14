@@ -46,6 +46,7 @@ Parts used for PCBA:
 |     14 | W25Q16JVUXIQ 16Mbit SPI Flash               | **C2843335**  | JLCPCB |   $10.1720 | [Link](https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVUXIQ/C2843335)                   |
 |     15 | 12MHz SMD Crystal                           | **C9002**     | JLCPCB |    $0.4750 | [Link](https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002) |
 | - | Total Cost | - | - | $20.22 | - |
+
 [//]: # ( # OLD PCB!!
 <img width="775" height="850" alt="image" src="https://github.com/user-attachments/assets/6a81b15d-e1fa-40fa-b64f-182c5447a4d2" />
 )
