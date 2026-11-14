@@ -1,6 +1,7 @@
+# EasyDev
+
 <img width="898" height="928" alt="image" src="https://github.com/user-attachments/assets/b60452d2-a8ee-4ade-9bb9-5a37ffe41b94" />
 
-# EasyDev
 A RP2040 Dev Board featuring 43 exposed pins along with 16 MB of flash storage! Can support up to (not recommended) 1A of power draw on VBUS! Features 29 programmable GPIO pins so that you have plenty of pins for plenty of connecting and tinkering and also a onboard NeoPixel-compatible addressable RGB LED with a exposed pin dedicated for connecting other addressable LEDs to the board without sacrificing a GPIO!
 
 |<img width="833" height="2069" alt="image" src="https://github.com/user-attachments/assets/8bcc80f9-b112-4536-bd4e-fd6323dd7293" />|<img width="997" height="653" alt="image" src="https://github.com/user-attachments/assets/84a811b0-3a2e-485e-9566-f25fc2c012cf" />|
@@ -29,21 +30,22 @@ If you are curious of how this devboard works, well you are in the right spot! W
 Parts used for PCBA:
 | Item # | Part Name                                   | JLC Part #    | Source | Cost (USD) | Link                                                                                                                                                 |
 | -----: | :------------------------------------------ | :------------ | :----- | ---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-|      1 | 1uF 25V X5R ±10% 0402 MLCC Capacitor        | **C52923**    | JLCPCB |    $0.2650 | [https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923)                             |
-|      2 | 100nF 16V X7R ±10% 0402 MLCC Capacitor      | **C1525**     | JLCPCB |    $0.2915 | [https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525](https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525)                                 |
-|      3 | 10µF 10V X5R ±10% 0603 MLCC Capacitor       | **C19702**    | JLCPCB |    $0.4080 | [https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702](https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702)                             |
-|      4 | 33pF 50V C0G ±5% 0402 MLCC Capacitor        | **C1562**     | JLCPCB |    $0.1410 | [https://jlcpcb.com/partdetail/1914-0402CG330J500NT/C1562](https://jlcpcb.com/partdetail/1914-0402CG330J500NT/C1562)                                 |
-|      5 | WS2812B-2020V6 RGB LED (Built-in IC)        | **C52917434** | JLCPCB |    $0.8118 | [https://jlcpcb.com/partdetail/Worldsemi-WS2812B_2020V6/C52917434](https://jlcpcb.com/partdetail/Worldsemi-WS2812B_2020V6/C52917434)                 |
-|      6 | USB Type-C Connector (16P, Right Angle SMT) | **C165948**   | JLCPCB |    $0.9205 | [https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948)   |
-|      7 | 5.1kΩ 0402 ±1% Resistor                     | **C25905**    | JLCPCB |    $0.0670 | [https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905](https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905)                               |
-|      8 | 27Ω 0402 ±1% Resistor                       | **C138021**   | JLCPCB |    $0.1034 | [https://jlcpcb.com/partdetail/YAGEO-RC0402FR0727RL/C138021](https://jlcpcb.com/partdetail/YAGEO-RC0402FR0727RL/C138021)                             |
-|      9 | 1kΩ 0402 ±1% Resistor                       | **C11702**    | JLCPCB |    $0.0800 | [https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702](https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702)                               |
-|     10 | 10kΩ 0402 ±1% Resistor                      | **C60490**    | JLCPCB |    $0.1160 | [https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490](https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490)                               |
-|     11 | 4×3mm SMT Tactile Switch                    | **C720477**   | JLCPCB |    $0.2760 | [https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477](https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477)                             |
-|     12 | RP2040 Microcontroller                      | **C2040**     | JLCPCB |    $4.9250 | [https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)                                     |
-|     13 | NCP1117ST33T3G 3.3V LDO Regulator           | **C26537**    | JLCPCB |    $1.1680 | [https://jlcpcb.com/partdetail/onsemi-NCP1117ST33T3G/C26537](https://jlcpcb.com/partdetail/onsemi-NCP1117ST33T3G/C26537)                             |
-|     14 | W25Q16JVUXIQ 16Mbit SPI Flash               | **C2843335**  | JLCPCB |   $10.1720 | [https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVUXIQ/C2843335](https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVUXIQ/C2843335)                   |
-|     15 | 12MHz SMD Crystal                           | **C9002**     | JLCPCB |    $0.4750 | [https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002](https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002) |
+|      1 | 1uF 25V X5R ±10% 0402 MLCC Capacitor        | **C52923**    | JLCPCB |    $0.2650 | [Link](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923)                             |
+|      2 | 100nF 16V X7R ±10% 0402 MLCC Capacitor      | **C1525**     | JLCPCB |    $0.2915 | [Link](https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525)                                 |
+|      3 | 10µF 10V X5R ±10% 0603 MLCC Capacitor       | **C19702**    | JLCPCB |    $0.4080 | [Link](https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702)                             |
+|      4 | 33pF 50V C0G ±5% 0402 MLCC Capacitor        | **C1562**     | JLCPCB |    $0.1410 | [Link](https://jlcpcb.com/partdetail/1914-0402CG330J500NT/C1562)                                 |
+|      5 | WS2812B-2020V6 RGB LED (Built-in IC)        | **C52917434** | JLCPCB |    $0.8118 | [Link](https://jlcpcb.com/partdetail/Worldsemi-WS2812B_2020V6/C52917434)                 |
+|      6 | USB Type-C Connector (16P, Right Angle SMT) | **C165948**   | JLCPCB |    $0.9205 | [Link](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948)   |
+|      7 | 5.1kΩ 0402 ±1% Resistor                     | **C25905**    | JLCPCB |    $0.0670 | [Link](https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905)                               |
+|      8 | 27Ω 0402 ±1% Resistor                       | **C138021**   | JLCPCB |    $0.1034 | [Link](https://jlcpcb.com/partdetail/YAGEO-RC0402FR0727RL/C138021)                             |
+|      9 | 1kΩ 0402 ±1% Resistor                       | **C11702**    | JLCPCB |    $0.0800 | [Link](https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702)                               |
+|     10 | 10kΩ 0402 ±1% Resistor                      | **C60490**    | JLCPCB |    $0.1160 | [Link](https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490)                               |
+|     11 | 4×3mm SMT Tactile Switch                    | **C720477**   | JLCPCB |    $0.2760 | [Link](https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477)                             |
+|     12 | RP2040 Microcontroller                      | **C2040**     | JLCPCB |    $4.9250 | [Link](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)                                     |
+|     13 | NCP1117ST33T3G 3.3V LDO Regulator           | **C26537**    | JLCPCB |    $1.1680 | [Link](https://jlcpcb.com/partdetail/onsemi-NCP1117ST33T3G/C26537)                             |
+|     14 | W25Q16JVUXIQ 16Mbit SPI Flash               | **C2843335**  | JLCPCB |   $10.1720 | [Link](https://jlcpcb.com/partdetail/WinbondElec-W25Q16JVUXIQ/C2843335)                   |
+|     15 | 12MHz SMD Crystal                           | **C9002**     | JLCPCB |    $0.4750 | [Link](https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002) |
 
-# OLD PCB!!
+[//]: # ( # OLD PCB!!
 <img width="775" height="850" alt="image" src="https://github.com/user-attachments/assets/6a81b15d-e1fa-40fa-b64f-182c5447a4d2" />
+)
